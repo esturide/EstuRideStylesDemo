@@ -2,7 +2,7 @@ import React from "react";
 import { StatusBar } from "expo-status-bar";
 import { Text, View } from "react-native";
 import Main from "./src/screens/Main";
-import Button from "./src/components/Button";
+import Button from "./src/components/ButtonEjemplo";
 import styles from "./src/styles/GlobalStyles";
 import BtnSubmit from "./src/components/BtnSubmit";
 import BtnDepositarVerde from "./src/components/BtnDepositarVerde";
