@@ -1,11 +1,13 @@
-import { StatusBar } from 'expo-status-bar';
-import { Text, View } from 'react-native';
+import { StatusBar } from "expo-status-bar";
+import { Text, View } from "react-native";
+import CardVehicleInfo from "../components/CardVehicleInfo";
 
 export default function Main() {
-    return (
-      <>
-        <Text>Hello world from main screen!</Text>
-        <StatusBar style="auto" />
-      </>
-    );
-  }
+  return (
+    <>
+      <Text>Hello world from main screen!</Text>
+      <StatusBar style="auto" />
+      <CardVehicleInfo/>
+    </>
+  );
+}
