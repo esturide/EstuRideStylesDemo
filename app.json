@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "EsturideStyles",
-    "slug": "EsturideStyles",
+    "name": "EsturideStylesDemo",
+    "slug": "EsturideStylesDemo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -26,7 +26,9 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "sdkVersion": "50.0.0"
-  },
-  "name": "esturidestyles"
+    "sdkVersion": "51.0.0",
+    "plugins": [
+      "expo-font"
+    ]
+  }
 }
